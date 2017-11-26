@@ -5,3 +5,5 @@ INSERT INTO staff (`Title`, `FirstName`, `LastName`, `Nickname`, `Password`, `Co
 	VALUES ('Mr', 'Thomas ', 'Davies', 'Tom', 'Password1234', 'Password1234');
 INSERT INTO staff (`Title`, `FirstName`, `LastName`, `Nickname`, `Password`, `ConfirmPassword`) 
 	VALUES ('Mrs', 'Sandra', 'Cook', 'Sandy', 'NoPass', 'NoPass');
+INSERT INTO staff (`Title`, `FirstName`, `LastName`, `Nickname`, `Password`, `ConfirmPassword`) 
+	VALUES ('Mr', 'Alex', 'Riley', 'A- Ry', 'IceCream123', 'IceCream123');
