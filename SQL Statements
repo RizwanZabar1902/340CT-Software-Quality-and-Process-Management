@@ -7,3 +7,5 @@ INSERT INTO staff (`Title`, `FirstName`, `LastName`, `Nickname`, `Password`, `Co
 	VALUES ('Mrs', 'Sandra', 'Cook', 'Sandy', 'NoPass', 'NoPass');
 INSERT INTO staff (`Title`, `FirstName`, `LastName`, `Nickname`, `Password`, `ConfirmPassword`) 
 	VALUES ('Mr', 'Alex', 'Riley', 'A- Ry', 'IceCream123', 'IceCream123');
+UPDATE staff SET `Nickname` = 'A - Ry' WHERE `ID` = 4;
+
