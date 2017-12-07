@@ -1,0 +1,1 @@
+CREATE TABLE product (`ID` INT UNSIGNED NOT NULL AUTO_INCREMENT, `Product_Code` VARCHAR(10), `Product Name` VARCHAR(50), `Quantity Ordered` INT NOT NULL, `Re-order stock quauntity` VARCHAR(255) NOT NULL, `OrderID` INT, PRIMARY KEY (`ID`));  
