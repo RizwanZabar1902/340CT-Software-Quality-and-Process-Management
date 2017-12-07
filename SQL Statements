@@ -1,11 +1,1 @@
-CREATE TABLE staff (`ID` INT UNSIGNED NOT NULL AUTO_INCREMENT, `Title` VARCHAR(10), `FirstName` VARCHAR(50), `LastName` VARCHAR(50), `Nickname` VARCHAR(50), `Password` VARCHAR(25), `ConfirmPassword` VARCHAR(50), PRIMARY KEY (`ID`));
-INSERT INTO staff (`Title`, `FirstName`, `LastName`, `Nickname`, `Password`, `ConfirmPassword`) 
-	VALUES ('Mr', 'Rizwan', 'Zabar', 'Riz', 'Password123', 'Password123');
-INSERT INTO staff (`Title`, `FirstName`, `LastName`, `Nickname`, `Password`, `ConfirmPassword`) 
-	VALUES ('Mr', 'Thomas ', 'Davies', 'Tom', 'Password1234', 'Password1234');
-INSERT INTO staff (`Title`, `FirstName`, `LastName`, `Nickname`, `Password`, `ConfirmPassword`) 
-	VALUES ('Mrs', 'Sandra', 'Cook', 'Sandy', 'NoPass', 'NoPass');
-INSERT INTO staff (`Title`, `FirstName`, `LastName`, `Nickname`, `Password`, `ConfirmPassword`) 
-	VALUES ('Mr', 'Alex', 'Riley', 'A- Ry', 'IceCream123', 'IceCream123');
-UPDATE staff SET `Nickname` = 'A - Ry' WHERE `ID` = 4;
-
+CREATE TABLE members (`Member ID` INT UNSIGNED NOT NULL AUTO_INCREMENT, `Title` VARCHAR(10), `First Name` VARCHAR(50), `Surname` VARCHAR(50) NOT NULL, `E-mail Address` VARCHAR(255) NOT NULL, `Confirm E-mail address` VARCHAR(255), `Password` VARCHAR(255), `Confirm password` VARCHAR(255), PRIMARY KEY (`Member ID`));  
